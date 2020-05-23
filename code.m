@@ -34,7 +34,7 @@ while toc<15
     if pongBallPos(2) <0 
         if abs(pongBallPos(1) -pongBlockCenter) <5
             pongBallPos(2) = -pongBallVel(2);
-            fprintf ('W ')
+            
         else
             fprintf ('GAME OVER')
             close all; return;
